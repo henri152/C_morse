@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="J1/C_morse" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc-mingw64" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/J1/C_morse" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc-mingw64" />
+				<Option parameters='encode &quot;JE VEUX MONEY&quot;' />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/J1/C_morse" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc-mingw64" />
+			</Target>
+		</Build>
+		<Unit filename="Makefile" />
+		<Unit filename="ft_morse_vers_texte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ft_texte_vers_morse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="morse.h" />
+		<Unit filename="table_morse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
